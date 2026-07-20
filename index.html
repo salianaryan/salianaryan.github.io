@@ -17,6 +17,7 @@
     ================================================== -->
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
     <!-- favicons
     ================================================== -->
@@ -55,7 +56,7 @@
                 <div class="s-header__block">
                     <div class="s-header__logo">
                         <a class="logo" href="index.html">
-                            <img src="images/logo.svg" alt="Homepage">
+                            <img src="assets/logo.svg" alt="Homepage">
                         </a>
                     </div>
 
@@ -66,7 +67,8 @@
                     <ul class="s-header__menu-links">
                         <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
                         <li><a class="smoothscroll" href="#about">About</a></li>
-                        <li><a class="smoothscroll" href="#works">Works</a></li>
+                        <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+                        <li><a class="smoothscroll" href="#experience">Experience</a></li>
                         <li><a class="smoothscroll" href="#footer">Contact</a></li>
                     </ul> <!-- s-header__menu-links -->    
                 </nav> <!-- end s-header__nav -->
@@ -86,9 +88,9 @@
 
                         <div class="s-intro__content-pretitle text-pretitle">Hello</div>
                         <h1 class="s-intro__content-title">
-                        I'm Aryan Salian <br>
-                        a product designer <br>
-                        base in Somewhere.
+                        I'm Aryan <br>
+                        a computer engineering student <br>
+                        i like making and breaking things
                         </h1>                            
 
                         <div class="s-intro__content-btns">
@@ -99,47 +101,32 @@
                     </div> <!-- s-intro__content-text -->                     
                     
                 </div> <!-- s-intro__content-inner -->  
+            
             </div> <!-- s-intro__content -->
 
             <ul class="s-intro__social social-list">
                 <li>
-                    <a href="#0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
-                        <span class="u-screen-reader-text">Facebook</span>
+                    <a href="https://www.linkedin.com/in/aryan-salian13/" target="_blank" rel="noopener">
+                        <i class="bi bi-linkedin"></i>
+                        <span class="u-screen-reader-text">LinkedIn</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
-                        <span class="u-screen-reader-text">Twitter</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
-                        <span class="u-screen-reader-text">Instagram</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"></path></svg>
-                        <span class="u-screen-reader-text">Dribbble</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.99 2C6.472 2 2 6.473 2 11.99c0 4.232 2.633 7.85 6.35 9.306-.088-.79-.166-2.006.034-2.868.182-.78 1.172-4.966 1.172-4.966s-.299-.599-.299-1.484c0-1.388.805-2.425 1.808-2.425.853 0 1.264.64 1.264 1.407 0 .858-.546 2.139-.827 3.327-.235.994.499 1.805 1.479 1.805 1.775 0 3.141-1.872 3.141-4.575 0-2.392-1.719-4.064-4.173-4.064-2.843 0-4.512 2.132-4.512 4.335 0 .858.331 1.779.744 2.28a.3.3 0 0 1 .069.286c-.076.315-.245.994-.277 1.133-.044.183-.145.222-.335.134-1.247-.581-2.027-2.405-2.027-3.871 0-3.151 2.289-6.045 6.601-6.045 3.466 0 6.159 2.469 6.159 5.77 0 3.444-2.171 6.213-5.184 6.213-1.013 0-1.964-.525-2.29-1.146l-.623 2.374c-.225.868-.834 1.956-1.241 2.62a10 10 0 0 0 2.958.445c5.517 0 9.99-4.473 9.99-9.99S17.507 2 11.99 2"></path></svg>
-                        <span class="u-screen-reader-text">Pinterest</span>
+                    <a href="https://github.com/salianaryan" target="_blank" rel="noopener">
+                        <i class="bi bi-github"></i>
+                        <span class="u-screen-reader-text">GitHub</span>
                     </a>
                 </li>
             </ul> <!-- end s-intro__social -->
 
+            
+
             <div class="s-intro__content-media">                               
-                <img src="images/WhatsApp Image 2025-08-18 at 3.41.12 PM.jpg" srcset="images/WhatsApp Image 2025-08-18 at 3.41.12 PM.jpg 1x, images/WhatsApp Image 2025-08-18 at 3.41.12 PM.jpg 2x" alt="">
+                <img src="assets/WhatsApp Image 2025-08-18 at 3.41.12 PM.jpg" srcset="assets/WhatsApp Image 2025-08-18 at 3.41.12 PM.jpg 1x, assets/WhatsApp Image 2025-08-18 at 3.41.12 PM.jpg 2x" alt="">
             </div> <!-- s-intro__content-media -->                
 
             <div class="s-intro__btn-download">
-                <a class="btn btn--stroke" href="#0">Get My CV</a>
+                <a class="btn btn--stroke" href="#0">Download My Resume</a>
             </div> <!-- end s-intro__btn-download -->
             
             <div class="s-intro__scroll-down">
@@ -173,97 +160,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. Ut enim ad minim     
                     </p>
 
-                    <div class="grid-list-items s-about__blocks">
-
-                        <div class="grid-list-items__item s-about__block">
-                            <h4 class="s-about__block-title">Experience</h4>
-                            <ul class="s-about__list">
-                                <li>
-                                    Spotify
-                                    <span>Product Designer</span>
-                                </li>
-                                <li>
-                                    Dropbox
-                                    <span>Interface Developer</span>
-                                </li>
-                                <li>
-                                    Google
-                                    <span>Lead UI Designer</span>
-                                </li>
-                                <li>
-                                    Figma
-                                    <span>UI Designer</span>
-                                </li>
-                                <li>
-                                    Microsoft
-                                    <span>UI Designer</span>
-                                </li>
-                            </ul>
-                        </div> <!--end s-about__block -->
-
-                        <div class="grid-list-items__item s-about__block">
-                            <h4 class="s-about__block-title">Awards</h4>
-
-                            <ul class="s-about__list">
-                                <li>
-                                    <a href="#0">
-                                        Site Of The Month
-                                        <span>Awwwards — 2023</span>
-                                    </a>                                        
-                                </li>
-                                <li>
-                                    <a href="#0">
-                                        Site Of The Day
-                                        <span>Awwwards — 2023</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#0">
-                                        Agency of The Year
-                                        <span>Awwwards — 2022</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#0">
-                                        FWA of The Month
-                                        <span>FWA — 2022</span>
-                                    </a>
-                                </li><li>
-                                    <a href="#0">
-                                        Site Of The Month
-                                        <span>Awwwards — 2022</span>
-                                    </a>                                        
-                                </li>
-                            </ul>
-                        </div> <!--end s-about__block -->
-                        
-                        <div class="grid-list-items__item s-about__block">
-                            <h4 class="s-about__block-title">Skills</h4>
-
-                            <ul class="s-about__list">
-                                <li>
-                                    Product Design
-                                </li>
-                                <li>
-                                    UI/UX Design
-                                </li>
-                                <li>
-                                    Prototyping
-                                </li>
-                                <li>
-                                    Frontend Development
-                                </li>
-                                <li>
-                                    Illustration
-                                </li>
-                                <li>
-                                    Visual Design
-                                </li>
-                            </ul>
-                        </div> <!--end s-about__block -->
-
-                    </div> <!-- grid-list-items -->
-
+                
                 </div> <!--end column -->
             </div> <!--end s-about__content -->
             
@@ -273,209 +170,245 @@
 
         <!-- # works
         ================================================== -->
-        <section id="works" class="s-works target-section">
+        <section id="portfolio" class="s-works target-section">
 
             <div class="row">
                 <div class="column xl-12">
                     <div class="section-header" data-num="02">
-                        <h2 class="text-display-title">Selected Works.</h2>
+                        <h2 class="text-display-title">Portfolio.</h2>
                     </div> <!-- end section-header -->
+                </div>
+            </div>
+        
+
+            <div class="row">
+                <div class="column xl-12">
+                    <ul class="portfolio-filters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter="filter-project">Projects</li>
+                        <li data-filter="filter-internship">Internship</li>
+                        <li data-filter="filter-extracurricular">Extracurricular</li>
+                    </ul>
                 </div>
             </div>
 
             <div class="row folio-entries">
 
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-turban.jpg" class="entry__link glightbox" data-glightbox="title: White Knit Cap; description: .entry__desc-01">
+                <div class="column entry filter-project">
+                    <a href="assets/folio/white_turban.jpg" class="entry__link glightbox" data-gallery="project-1" data-glightbox="title: [Arduino Project Name]; description: .entry__desc-project1">
                         <div class="entry__thumb">
-                            <img src="images/folio/white_turban.jpg" srcset="images/folio/white_turban.jpg 1x, images/folio/white_turban@2x.jpg 2x" alt="">
+                            <img src="assets/folio/white_turban.jpg" srcset="assets/folio/white_turban.jpg 1x, assets/folio/white_turban@2x.jpg 2x" alt=""><span>add a photo</span>
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">White Knit Cap</h4>
-                            <div class="entry__cat">Frontend Design</div>
+                            <h4 class="entry__title">[Arduino Project Name]</h4>
+                            <div class="entry__cat">Personal Project</div>
                         </div>
                     </a>
-
-                    <div class="glightbox-desc entry__desc-01">
+                    <a href="assets/wheel-500.jpg" class="glightbox entry__extra-slide" data-gallery="project-1"></a>
+                    <a href="assets/sample-image.jpg" class="glightbox entry__extra-slide" data-gallery="project-1"></a>
+                    <div class="glightbox-desc entry__desc-project1">
                         <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
+                        One or two lines on what it does and how it was built.
+                        <a href="https://github.com/USERNAME/REPO" target="_blank" rel="noopener">GitHub →</a>
                         </p>
                     </div>
                 </div> <!-- entry -->
 
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-woodcraft.jpg" class="entry__link glightbox" data-glightbox="title: WoodCraft; description: .entry__desc-02">
+                <div class="column entry filter-project">
+                    <a href="assets/folio/white_turban.jpg" class="entry__link glightbox" data-gallery="project-2" data-glightbox="title: [Second Project Name]; description: .entry__desc-project2">
                         <div class="entry__thumb">
-                            <img src="images/folio/woodcraft.jpg" srcset="images/folio/woodcraft.jpg 1x, images/folio/woodcraft@2x.jpg 2x" alt="">
+                            <img src="assets/folio/white_turban.jpg" srcset="assets/folio/white_turban.jpg 1x, assets/folio/white_turban@2x.jpg 2x" alt=""><span>add a photo</span>
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">WoodCraft</h4>
-                            <div class="entry__cat">Product Design</div>
+                            <h4 class="entry__title">[Second Project Name]</h4>
+                            <div class="entry__cat">Personal Project</div>
                         </div>
                     </a>
-
-                    <div class="glightbox-desc entry__desc-02">
+                    <a href="assets/wheel-500.jpg" class="glightbox entry__extra-slide" data-gallery="project-2"></a>
+                    <a href="assets/sample-image.jpg" class="glightbox entry__extra-slide" data-gallery="project-2"></a>
+                    <div class="glightbox-desc entry__desc-project2">
                         <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
+                        One or two lines on what it does and how it was built.
+                        <a href="https://github.com/USERNAME/REPO" target="_blank" rel="noopener">GitHub →</a>
                         </p>
                     </div>
                 </div> <!-- entry -->
 
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-tulips.jpg" class="entry__link glightbox" data-glightbox="title: Caffeine & Tulips; description: .entry__desc-03">
+                <div class="column entry filter-internship">
+                    <a href="assets/folio/white_turban.jpg" class="entry__link glightbox" data-gallery="enliten" data-glightbox="title: Marketing & Web Internship — Enliten IT; description: .entry__desc-enliten">
                         <div class="entry__thumb">
-                            <img src="images/folio/caffeine_and_tulips.jpg" srcset="images/folio/caffeine_and_tulips.jpg 1x, images/folio/caffeine_and_tulips@2x.jpg 2x" alt="">
+                            <img src="assets/folio/white_turban.jpg" srcset="assets/folio/white_turban.jpg 1x, assets/folio/white_turban@2x.jpg 2x" alt=""><span>add a screenshot</span>
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">Caffeine & Tulips</h4>
-                            <div class="entry__cat">Brand Identity</div>
+                            <h4 class="entry__title">Marketing & Web Internship</h4>
+                            <div class="entry__cat">Enliten IT India</div>
                         </div>
                     </a>
-
-                    <div class="glightbox-desc entry__desc-03">
+                    <a href="assets/wheel-500.jpg" class="glightbox entry__extra-slide" data-gallery="enliten"></a>
+                    <a href="assets/sample-image.jpg" class="glightbox entry__extra-slide" data-gallery="enliten"></a>
+                    <div class="glightbox-desc entry__desc-enliten">
                         <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
+                        Supported Enliten IT's digital initiatives and brand identity work. Ran SEO
+                        research for competitive positioning, contributed to product page development
+                        for the HomePick e-commerce site, and delivered QC reports and design drafts.
+                        <a href="#">HomePick →</a>
                         </p>
                     </div>
                 </div> <!-- entry -->
 
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-grayscale.jpg" class="entry__link glightbox" data-glightbox="title: Grayscale; description: .entry__desc-04">
+                <div class="column entry filter-extracurricular">
+                    <a href="assets/folio/white_turban.jpg" class="entry__link glightbox" data-gallery="council" data-glightbox="title: I.S.C. Cultural Representative; description: .entry__desc-council">
                         <div class="entry__thumb">
-                            <img src="images/folio/grayscale.jpg" srcset="images/folio/grayscale.jpg 1x, images/folio/grayscale@2x.jpg 2x" alt="">
+                            <img src="assets/folio/white_turban.jpg" srcset="assets/folio/white_turban.jpg 1x, assets/folio/white_turban@2x.jpg 2x" alt=""><span>add a photo</span>
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">Grayscale</h4>
-                            <div class="entry__cat">Product Design</div>
+                            <h4 class="entry__title">Student Council</h4>
+                            <div class="entry__cat">Cultural Representative</div>
                         </div>
                     </a>
-
-                    <div class="glightbox-desc entry__desc-04">
+                    <a href="assets/wheel-500.jpg" class="glightbox entry__extra-slide" data-gallery="council"></a>
+                    <a href="assets/sample-image.jpg" class="glightbox entry__extra-slide" data-gallery="council"></a>
+                    <div class="glightbox-desc entry__desc-council">
                         <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
+                        Elected through academic merit, conduct, interviews, and peer voting among
+                        ~250 students. Leads planning and coordination of school-wide cultural events.
                         </p>
                     </div>
                 </div> <!-- entry -->
 
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-lamp.jpg" class="entry__link glightbox" data-glightbox="title: The Lamp; description: .entry__desc-05">
+                <div class="column entry filter-extracurricular">
+                    <a href="assets/folio/white_turban.jpg" class="entry__link glightbox" data-gallery="mun" data-glightbox="title: Model United Nations; description: .entry__desc-mun">
                         <div class="entry__thumb">
-                            <img src="images/folio/lamp.jpg" srcset="images/folio/lamp.jpg 1x, images/folio/lamp@2x.jpg 2x" alt="">
+                            <img src="assets/folio/white_turban.jpg" srcset="assets/folio/white_turban.jpg 1x, assets/folio/white_turban@2x.jpg 2x" alt=""><span>add a photo</span>
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">The Lamp</h4>
-                            <div class="entry__cat">Brand Identity</div>
+                            <h4 class="entry__title">Model United Nations</h4>
+                            <div class="entry__cat">Annual World Summit</div>
                         </div>
                     </a>
-
-                    <div class="glightbox-desc entry__desc-05">
+                    <a href="assets/wheel-500.jpg" class="glightbox entry__extra-slide" data-gallery="mun"></a>
+                    <a href="assets/sample-image.jpg" class="glightbox entry__extra-slide" data-gallery="mun"></a>
+                    <div class="glightbox-desc entry__desc-mun">
                         <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
+                        Head of Security for the 2025 summit, overseeing logistics, access control,
+                        and delegate coordination. Delegate for the UN Office on Drugs and Crime in 2024.
                         </p>
                     </div>
                 </div> <!-- entry -->
 
-                <div class="column entry">
-                    <a href="images/folio/gallery/g-tropical.jpg" class="entry__link glightbox" data-glightbox="title: Tropical; description: .entry__desc-06">
+                <div class="column entry filter-extracurricular">
+                    <a href="assets/folio/white_turban.jpg" class="entry__link glightbox" data-gallery="cascade" data-glightbox="title: Cascade 29 — Sports Mania Committee; description: .entry__desc-cascade">
                         <div class="entry__thumb">
-                            <img src="images/folio/tropical.jpg" srcset="images/folio/tropical.jpg 1x, images/folio/tropical@2x.jpg 2x" alt="">
+                            <img src="assets/folio/white_turban.jpg" srcset="assets/folio/white_turban.jpg 1x, assets/folio/white_turban@2x.jpg 2x" alt=""><span>add a photo</span>
                         </div>
                         <div class="entry__info">
-                            <h4 class="entry__title">Tropical</h4>
-                            <div class="entry__cat">Frontend Design</div>
+                            <h4 class="entry__title">Sports Mania Committee</h4>
+                            <div class="entry__cat">Cascade 29</div>
                         </div>
                     </a>
-
-                    <div class="glightbox-desc entry__desc-06">
+                    <a href="assets/wheel-500.jpg" class="glightbox entry__extra-slide" data-gallery="cascade"></a>
+                    <a href="assets/sample-image.jpg" class="glightbox entry__extra-slide" data-gallery="cascade"></a>
+                    <div class="glightbox-desc entry__desc-cascade">
                         <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
-                        deleniti facilis ab, tempora non! Nisi, tempora provident.
-                        <a href="https://www.behance.net/">Project Link</a>.
+                        Helped organize and manage sporting events at one of Mumbai's largest
+                        student-led cultural festivals.
                         </p>
                     </div>
-                </div> <!-- entry --> 
+                </div> <!-- entry -->
 
             </div> <!-- folio entries -->
 
         </section> <!-- end s-works --> 
 
+        <section id="experience" class="s-involvement target-section">
 
-        <!-- # numbers
-        ================================================== -->
-        <section id="numbers" class="s-numbers">
-
-            <div class="row counter-items">
-
-                <div class="column counter-items__item">
-                    <div class="num">
-                        80
-                        <span>+</span>
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="03">
+                        <h2 class="text-display-title">Experience and Involvement.</h2>
                     </div>
-                    <h5>Happy Customers</h5>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Vel harum magni quae voluptate error quo repellendus inventore 
-                    laborum ex veniam. 
-                    </p>
-                </div> <!-- end counter-items__item -->
+                </div>
+            </div>
 
-                <div class="column counter-items__item">
-                    <div class="num">
-                        120
-                        <span>+</span>
+            <div class="row s-involvement__resume-btn-row">
+                <div class="column xl-12">
+                    <a href="assets/wheel-500.jpg" class="btn btn--stroke" download>Download My Resume</a>
+                </div>
+            </div>
+
+            <div class="row s-involvement__content">
+
+                <div class="column xl-6 md-12 s-involvement__block">
+
+                    <h4 class="s-involvement__block-title">Education</h4>
+                    <div class="s-involvement__item">
+                        <h3>Jamnabai Narsee School — I.S.C.</h3>
+                        <span class="s-involvement__meta">Mumbai, India — Class of 2026</span>
+                        <p>Physics, Chemistry, Mathematics, Computer Science. XI: 71% (Term I), 69% (Term II).</p>
                     </div>
-                    <h5>Projects Completed</h5>
-                    <p>
-                    Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. 
-                    Fusce vel dui. In ac felis 
-                    quis tortor malesuada pretium
-                    </p>
-                </div> <!-- end counter-items__item -->
-
-                <div class="column counter-items__item">
-                    <div class="num">
-                        23k
-                        <span>+</span>
+                    <div class="s-involvement__item">
+                        <h3>Jamnabai Narsee School — I.S.C.E.</h3>
+                        <span class="s-involvement__meta">Mumbai, India — Class of 2024</span>
+                        <p>Physics, Chemistry, Mathematics, Biology, Physical Education. Final: 91%.</p>
                     </div>
-                    <h5>Lines of Code</h5>
-                    <p>
-                    Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                    Nisi eaque consequatur. Voluptatem dignissimos ut ducimus
-                    </p>
-                </div> <!-- end counter-items__item -->
 
-                <div class="column counter-items__item">
-                    <div class="num">
-                        85
-                        <span>+</span>
+                    <h4 class="s-involvement__block-title has-spacer">Athletics</h4>
+                    <div class="s-involvement__item">
+                        <h3>Shot Put — 5kg</h3>
+                        <span class="s-involvement__meta">August 2024 – February 2025</span>
+                        <p>Quintessence 3.0 — 9.68m, 1st place (Feb 2025)</p>
+                        <p>Inter-House Athletics — 9.92m, 1st place (Dec 2024)</p>
+                        <p>D.S.O. Regional Athletics — 9.68m, 2nd place (Oct 2024)</p>
+                        <p>C.I.S.C.E. Zonal Athletics — 8.75m, 3rd place (Aug 2024)</p>
                     </div>
-                    <h5>Positive Feedback</h5>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum magni quae voluptate error 
-                    quo repellendus inventore laborum ex veniam.
-                    </p>
-                </div> <!-- end counter-items__item -->
+                    <div class="s-involvement__item">
+                        <h3>Best Athlete Award</h3>
+                        <span class="s-involvement__meta">2017 – 2018</span>
+                        <p>Recognized for consistent excellence in track &amp; field events.</p>
+                    </div>
 
-            </div>  <!-- end counter-items -->
+                </div>
 
-        </section> <!-- end s-numbers -->
+                <div class="column xl-6 md-12 s-involvement__block">
 
+                    <h4 class="s-involvement__block-title">Leadership and Student Council</h4>
+                    <div class="s-involvement__item">
+                        <h3>I.S.C. Cultural Representative</h3>
+                        <span class="s-involvement__meta">January 2025 – Present</span>
+                        <p>Elected through academic merit, conduct, interviews, and peer voting among ~250 students. Leads planning and coordination of school-wide cultural events.</p>
+                    </div>
+                    <div class="s-involvement__item">
+                        <h3>Model United Nations</h3>
+                        <span class="s-involvement__meta">August 2024 – August 2025</span>
+                        <p>Head of Security, Annual World Summit (Aug 2025)</p>
+                        <p>Delegate, UN Office on Drugs and Crime, Annual World Summit (Aug 2024)</p>
+                        </ul>
+                    </div>
+
+                    <h4 class="s-involvement__block-title has-spacer">Work Experience</h4>
+                    <div class="s-involvement__item">
+                        <h3>Marketing &amp; Web Intern — Enliten IT India</h3>
+                        <span class="s-involvement__meta">Mumbai, India — March 2025 – April 2025</span>
+                        <p>SEO research and competitive positioning, product page development for the HomePick e-commerce site, and QC/design deliverables.</p>
+                    </div>
+
+                    <h4 class="s-involvement__block-title has-spacer">Activities and Awards</h4>
+                    <div class="s-involvement__item">
+                        <h3>Cascade 29 — Sports Mania Committee</h3>
+                        <span class="s-involvement__meta">August 2024</span>
+                        <p>Helped organize sporting events at one of Mumbai's largest student-led cultural festivals.</p>
+                    </div>
+                    <div class="s-involvement__item">
+                        <h3>International Award for Young People — Bronze Level</h3>
+                        <span class="s-involvement__meta">April 2023</span>
+                        <p>Completed a self-development program across Voluntary Service, Skills Development, Physical Recreation, and an Adventurous Journey.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section> <!-- end s-involvement -->
 
         <!-- # footer 
         ================================================== -->
@@ -483,7 +416,7 @@
 
             <div class="row">
                 <div class="column lg-12">
-                    <div class="section-header light-on-dark" data-num="03">
+                    <div class="section-header light-on-dark" data-num="04">
                         <h2 class="text-display-title">Get In Touch.</h2>
                     </div> <!-- end section-header -->
                 </div>
@@ -491,30 +424,26 @@
 
             <div class="row s-footer__content">
 
-                <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+                <!-- <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
                     <p class="attention-getter">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum quasi facere libero, 
                     fugiat laboriosam possimus amet consectetur adipisicing elit reprehenderit eveniet tempore quisquam ipsa id esse. Facere ratione dignissimos.
                     </p>               
-                </div> <!-- end section-footer__about -->
+                </div> end section-footer__about -->
 
                 <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
                     <div class="row">
                         <div class="column xl-4 lg-5 md-6 tab-12">
                             <h5>Follow Me</h5>
                             <ul class="link-list">
-                                <li><a href="#0">Facebook</a></li>
-                                <li><a href="#0">Twitter</a></li>
-                                <li><a href="#0">Instagram</a></li>
-                                <li><a href="#0">Dribbble</a></li>
-                                <li><a href="https://styleshout.com/go/hostinger/">Hostinger</a></li>
+                                <li><a href="https://www.linkedin.com/in/aryan-salian13/" target="_blank" rel="noopener">LinkedIn</a></li>
+                                <li><a href="https://github.com/salianaryan" target="_blank" rel="noopener">GitHub</a></li>
                             </ul>
                         </div>
                         <div class="column xl-6 md-6 tab-12">
                             <h5>Contact Me</h5>
                             <ul class="link-list">
-                                <li><a href="mailto:#0">sayhello@hudson.com</a></li>
-                                <li><a href="tel:+1975432345">+197 543 2345</a></li>
+                                <li><a href="mailto:aryan.salian13@gmail.com">aryan.salian13@gmail.com</a></li>
                             </ul> 
                         </div>
                     </div>                    
@@ -524,51 +453,17 @@
 
 
             <div class="row s-footer__buttons">
-               
-                <div class="column xl-6 tab-12">
-                    <a href="mailto:#0" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
-                </div>
-          
                 <div class="column xl-6 tab-12">                    
-                    <a href="#0" class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
+                    <a href="#0" class="btn btn--stroke btn--large u-fullwidth">Download My Resume</a>
                 </div>
             
             </div> <!-- end section-footer__buttons -->              
             
             <div class="row s-footer__bottom">
-                
-                <div class="column xl-6 lg-12">
-                    <ul class="s-footer__social social-list">
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
-                                <span class="u-screen-reader-text">Facebook</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
-                                <span class="u-screen-reader-text">Twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
-                                <span class="u-screen-reader-text">Instagram</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"></path></svg>
-                                <span class="u-screen-reader-text">Dribbble</span>
-                            </a>
-                        </li>
-                    </ul> 
-                </div> <!-- end section-footer__social -->
 
                 <div class="column xl-6 lg-12">
                     <p class="ss-copyright">
-                        <span>© Copyright Hudson 2023</span> 
+                        <p>© <span>2026</span> <strong> <a href="index.html">Aryan Salian</a></strong> <span>All Rights Reserved</span></p>
                         <span>Design by <a href="https://styleshout.com/">StyleShout</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></span>
                     </p>
                 </div>

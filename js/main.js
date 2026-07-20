@@ -312,3 +312,22 @@
     })();
 
 })(document.documentElement);
+
+document.addEventListener('DOMContentLoaded', function () {
+  var filterList = document.querySelector('.portfolio-filters');
+  if (!filterList) return;
+  var entries = document.querySelectorAll('.folio-entries .entry');
+
+  filterList.addEventListener('click', function (e) {
+    if (e.target.tagName !== 'LI') return;
+    filterList.querySelectorAll('li').forEach(function (li) {
+      li.classList.remove('filter-active');
+    });
+    e.target.classList.add('filter-active');
+    var filter = e.target.getAttribute('data-filter');
+    entries.forEach(function (entry) {
+      var show = filter === '*' || entry.classList.contains(filter);
+      entry.style.display = show ? '' : 'none';
+    });
+  });
+});
